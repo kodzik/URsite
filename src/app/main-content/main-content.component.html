@@ -1,53 +1,59 @@
-<div class="background-block">
-</div>
-
 <div class="news">
 
-  <div class="container">
-    <div class="news-latest-header">
-      <h2 >Latest news</h2>
-    </div>
+  <div class="news-container">
+    <h1>Latest news</h1>
   </div>
 
 
-  <div class="container">
+  <div class="news-container">
     <div class="news-latest">
 
-      <div class="news-main">
-        <img src="assets/img/thumb.png" alt="">
+      <div class="main">
+        <!-- <img src="assets/img/thumb.png" > -->
 
         <div class="news-main-content">
-          <div>
+          <div class="date">
             24.03.2021
           </div>
 
           <a href="#">United Robots partner with Polish Academy of Sciences to produce an autonomous AI robot leading the fight against COVID-19</a>
         </div>
 
-        <!-- <div class="img-container">
+        <!-- <div class="img-news-container">
         </div>
         <div class="news-main-content">
         </div> -->
         <!-- <img src="assets/img/thumb.png"> -->
       </div>
 
-
-
-      <div class="news-main-side-card">
+      <!-- <div class="side-card">
         <img class="image" src="assets/img/Thumbnail.png">
-      </div>
 
+        <div class="date">
+          24.03.2021
+        </div>
+
+        <h2>
+          Usability Testing of UR Cleaner robot
+        </h2>
+
+        <div class="bottom">
+          <div class="read-more">read more</div>
+          <div class="divider"></div>
+        </div>
+      </div> -->
+
+      <app-news-card></app-news-card>
 
     </div>
   </div>
 
-  <div class="container"></div>
-
-  <!-- <div class="container">
+  <div class="news-container">
     <h2>Previous stories</h2>
-    <div class="cardContainer">
-      <app-news-card></app-news-card>
-    </div>
+  </div>
 
-  </div> -->
+  <div class="news-container">
+    <app-previous-stories></app-previous-stories>
+  </div>
+
 </div>
