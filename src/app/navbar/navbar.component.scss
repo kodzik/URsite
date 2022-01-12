@@ -6,7 +6,8 @@
 
 .container{
   display: flex;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 85%;
   justify-content: space-between
 }
@@ -21,7 +22,6 @@ nav{
   justify-content: space-between;
   align-items: center;
   background-color: white;
-
 }
 
 .nav-links{
@@ -44,8 +44,6 @@ nav{
 .nav-links a{
   text-decoration: none;
 }
-
-
 
 /* The dropdown container */
 .dropdown {
@@ -147,6 +145,9 @@ nav{
     max-width:100%;
     padding: 1rem;
   }
+  .logo img{
+    height: 40px;
+  }
   .container{
     align-items: center;
   }
@@ -155,7 +156,18 @@ nav{
 @media screen and (max-width: 1200px) {
   .container{
     width: 100%;
-    margin: 0%;
   }
 }
+
+// @media only screen and (min-width: 1201px){
+//   .container {
+//     width: 1224px;
+//   }
+// }
+
+// @media screen and (max-width: 1440px) {
+//   .container{
+//     width: 1224px;
+//   }
+// }
 
