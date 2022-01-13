@@ -13,15 +13,16 @@
 }
 
 .logo{
-  padding: 1rem;
+  // padding: 1rem;
   margin-left: 1rem;
 }
 
 nav{
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   background-color: white;
+  padding: 18px 0px 18px 0px;
 }
 
 .nav-links{
@@ -30,6 +31,7 @@ nav{
   align-items: center;
   width: 30%;
   white-space: nowrap;
+  margin-right: 24px;
 }
 
 .nav-links li{
@@ -38,7 +40,7 @@ nav{
 
 .nav-links .icons{
   height: 1.5rem;
-  padding: 0 0.5rem 0 0.5rem;
+  padding: 0 6px 0 6px;
 }
 
 .nav-links a{
@@ -54,26 +56,25 @@ nav{
 /* Dropdown button */
 .dropdown .dropbtn {
   height: 42px;
-  font-size: 16px;
+  width: 122px;
 
+  font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: bold;
 
   display: flex;
-  // flex-direction: row;
+  flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  padding: 0px 20px 0px 20px;
+  padding: 0px 12px 0px 18px;
 
   border: none;
   border-radius: 4px;
   outline: none;
   color: #828283;
-  // padding: 14px 16px;
   background-color: inherit;
-  // font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
+  margin: 0;
 }
 
 .dropdown .dropbtn .icon {
@@ -128,6 +129,7 @@ nav{
   color: #828283;
   align-items: center;
   display: none;
+  margin: 0px 12px;
 }
 
 
@@ -143,7 +145,6 @@ nav{
   .logo{
     max-height:100%;
     max-width:100%;
-    padding: 1rem;
   }
   .logo img{
     height: 40px;
@@ -155,7 +156,7 @@ nav{
 
 @media screen and (max-width: 1200px) {
   .container{
-    width: 100%;
+    width: 1170px;
   }
 }
 
@@ -165,9 +166,9 @@ nav{
 //   }
 // }
 
-// @media screen and (max-width: 1440px) {
-//   .container{
-//     width: 1224px;
-//   }
-// }
+@media screen and (min-width: 1440px) {
+  .container{
+    width: 1224px;
+  }
+}
 
