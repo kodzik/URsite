@@ -2,9 +2,10 @@
   width: 100%;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, 300px);
+  grid-template-columns: repeat(auto-fit, 288px);
   place-content: center;
   justify-content: space-around;
+  height: 347px;
   // gap: 1rem;
 }
 
