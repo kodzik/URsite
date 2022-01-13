@@ -1,17 +1,17 @@
 .cardContainer{
+  position: relative;
   width: 100%;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, 288px);
-  place-content: center;
-  justify-content: space-around;
-  height: 347px;
-  // gap: 1rem;
+  align-content: space-between;
+  justify-content: space-between;
+  gap: 24px;
 }
 
-@media only screen and (max-width: 768px){
-  .cardContainer{
-    display: flex;
-    flex-direction: column;
-  }
-}
+// @media only screen and (max-width: 768px){
+//   .cardContainer{
+//     display: flex;
+//     flex-direction: column;
+//   }
+// }
