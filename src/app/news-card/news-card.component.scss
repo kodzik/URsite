@@ -3,11 +3,13 @@
 }
 
 .card{
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: flex-start; //figma
   height: 100%;
   min-height: 347px;
+  margin-bottom: 12px;
 }
 
 .card .img-container{
@@ -18,11 +20,12 @@
 }
 
 .card .content{
-  // display: flex;
-  position:relative;
+  display: flex;
+  flex-direction: column;
+  position: relative;
   height: 100%;
-  // min-height: 100px;
-  // align-self: stretch;
+  min-height: 200px;
+  align-self: stretch;
 }
 
 .card .image{
@@ -39,8 +42,8 @@
 }
 
 .card header{
-  position: absolute;
-  bottom: 4.9%;
+  // position: absolute;
+  // bottom: 4.9%;
 }
 
 .card .bottom{

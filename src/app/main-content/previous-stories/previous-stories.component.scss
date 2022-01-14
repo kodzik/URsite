@@ -16,16 +16,29 @@
 //   }
 // }
 
-@media screen and (max-width: 990px){
-  .cardContainer {
-    width: 750px;
-    // grid-template-columns: repeat(auto-fit, 216px);
-  }
-}
-
 @media screen and (max-width: 1200px){
   .cardContainer {
     width: 936px;
     grid-template-columns: repeat(auto-fit, 216px);
   }
 }
+
+@media screen and (max-width: 990px){
+  .cardContainer {
+    width: 730px;
+    display: block;
+    // align-items: stretch;
+    // grid-template-columns: repeat(auto-fit, 216px);
+  }
+}
+
+@media screen and (max-width: 769px){
+  .cardContainer {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    // grid-template-columns: repeat(auto-fit, 216px);
+  }
+}
+
+
