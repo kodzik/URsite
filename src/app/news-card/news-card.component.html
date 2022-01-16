@@ -1,22 +1,25 @@
-<div class="card">
+<div class="card" [class.no-img]="type != 'with_img' && type != 'video'">
 
-  <div class="img-container">
-    <img class="image" src="assets/img/Thumbnail.png">
+  <div *ngIf="type =='with_img' || type =='video'" class="img-container">
+    <div>
+      <img *ngIf="type =='video'" class="video" src="/assets/img/icons/play_button.svg">
+      <img class="image" src={{img_src}}>
+    </div>
   </div>
 
   <div class="content">
 
-    <div class="date">24.03.2021</div>
+    <div class="date">{{date | date: 'dd.MM.YYYY'}}</div>
 
     <div class="header">
-      <h2>Usability Testing of UR Cleaner robot</h2>
+      <h2>{{title}}</h2>
     </div>
 
     <div class="bottom">
       <div class="read-more">read more</div>
     </div>
 
-    <div class="divider"></div>
+    <div *ngIf="type =='with_img' || type =='video'" class="divider"></div>
 
   </div>
 

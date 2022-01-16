@@ -7,7 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainContentComponent implements OnInit {
 
-  constructor() { }
+  // mainNews: any; //TODO
+  sideNews: any;
+
+  constructor() {
+    // this.mainNews = { type: "no_img", date: new Date, title: "In 2019 United Robots has been accepted into a unique global network" }
+    this.sideNews = { type: "video", date: new Date, title: "Usability Testing of UR Cleaner robot", img_src: "assets/img/news/video.png" }
+   }
 
   ngOnInit(): void {
   }

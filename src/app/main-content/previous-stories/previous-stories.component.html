@@ -1,4 +1,4 @@
-
+<!--
 <div class="cardContainer">
   <app-news-card></app-news-card>
   <app-news-card></app-news-card>
@@ -9,4 +9,12 @@
   <app-news-card></app-news-card>
   <app-news-card></app-news-card>
   <app-news-card></app-news-card>
+</div> -->
+
+
+<div class="cardContainer">
+  <!-- <div>{{card.title}}</div> -->
+  <div *ngFor="let card of cards" >
+    <app-news-card *ngIf="card" [_cardContent]=card></app-news-card>
+  </div>
 </div>

@@ -54,6 +54,10 @@
   background-repeat: no-repeat;
 }
 
+.side-card{
+  width: 33%;
+}
+
 .main-xs{
   display: none;
   position: relative;
@@ -132,6 +136,9 @@
   .main-xs{
     display: flex;
   }
+  .side-card{
+    width: 60%;
+  }
 }
 
 @media screen and (max-width: 769px){
@@ -145,5 +152,8 @@
   }
   .news-latest{
     flex-direction: column;
+  }
+  .side-card{
+    width: 100%;
   }
 }
