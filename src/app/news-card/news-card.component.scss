@@ -6,7 +6,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  align-items: flex-start; //figma
+  align-items: flex-start;
   height: 100%;
   min-height: 347px;
   margin-bottom: 12px;
@@ -39,11 +39,6 @@
   color: #8682B6;
   margin-top: 1rem;
   margin-bottom: 1rem;
-}
-
-.card header{
-  // position: absolute;
-  // bottom: 4.9%;
 }
 
 .card .bottom{

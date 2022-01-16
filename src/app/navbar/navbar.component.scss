@@ -12,11 +12,6 @@
   justify-content: space-between
 }
 
-.logo{
-  // padding: 1rem;
-  // margin-left: 1rem;
-}
-
 nav{
   display: flex;
   justify-content: flex-end;
@@ -31,7 +26,6 @@ nav{
   align-items: center;
   width: 30%;
   white-space: nowrap;
-  // margin-right: 24px;
 }
 
 .nav-links li{
@@ -56,7 +50,6 @@ nav{
 /* Dropdown button */
 .dropdown .dropbtn {
   height: 42px;
-  // width: 122px;
 
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
@@ -118,18 +111,14 @@ nav{
   display: block;
 }
 
-
 .burger{
-  // content: "menu";
-  // padding: 1rem;
-  // text-transform: uppercase;
+  text-transform: uppercase;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   color: #828283;
   align-items: center;
   display: none;
-  // margin: 0px 12px;
 }
 
 
