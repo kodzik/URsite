@@ -16,7 +16,7 @@
 //   }
 // }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1280px){
   .cardContainer {
     width: 936px;
     grid-template-columns: repeat(auto-fit, 216px);
@@ -28,7 +28,6 @@
     width: 730px;
     display: block;
     // align-items: stretch;
-    // grid-template-columns: repeat(auto-fit, 216px);
   }
 }
 
@@ -37,7 +36,6 @@
     width: 95%;
     display: flex;
     flex-direction: column;
-    // grid-template-columns: repeat(auto-fit, 216px);
   }
 }
 
